@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Get Started with Dhub
 
-[Dhub](https://dhub.dev) is a Git-based CMS for technical documentation. Think Notion-like editing, but everything syncs with your GitHub repo.
+[Dhub](https://dhub.dev) is a Git-based CMS for Docusaurus and other documentation frameworks. Think Notion-like editing, but everything syncs with your GitHub repo.
 
 ## Import your project
 
