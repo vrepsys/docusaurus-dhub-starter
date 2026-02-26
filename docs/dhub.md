@@ -6,7 +6,13 @@ sidebar_position: 1
 
 [Dhub](https://dhub.dev) is a Git-based CMS for Docusaurus and other documentation frameworks. Think Notion-like editing, but everything syncs with your GitHub repo.
 
-![](/img/image.png)
+<figure>
+  <img src={require("/img/image.png").default} />
+
+  <figcaption>
+    Editing this page in Dhub
+  </figcaption>
+</figure>
 
 ## Import your project
 
