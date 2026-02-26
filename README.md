@@ -1,41 +1,22 @@
-# Website
+# docusaurus-dhub-starter
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A [Docusaurus](https://docusaurus.io/) starter template set up for [Dhub](https://dhub.dev).
 
-## Installation
-
-```bash
-yarn
-```
-
-## Local Development
+## Local development
 
 ```bash
-yarn start
+npm install
+npm start
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Dhub
 
-## Deployment
+Import this project into [Dhub](https://dhub.dev) to edit your docs and blog with a visual editor. No setup needed.
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The sidebar is driven by `navigation.json` in the project root. Dhub reads and writes this file, so you can rearrange navigation visually without editing config files.
