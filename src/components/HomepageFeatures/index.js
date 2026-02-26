@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Edit your docs and navigation with a Notion-like editor. Collaborate as
-        a team — no GitHub account needed.{' '}
+        Dhub is a CMS that lets you edit docs and navigation with a Notion-like
+        editor. Collaborate as a team, no GitHub account needed.{' '}
         <a href="/docs/dhub">
           Learn more
         </a>{' '}

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Get Started with Dhub
 
-[Dhub](https://dhub.dev) is a Git-based CMS for Docusaurus and other documentation frameworks. Think Notion-like editing, but everything syncs with your GitHub repo.
+[Dhub](https://dhub.dev) is a Git-based CMS for Docusaurus and other documentation frameworks. Think [Notion](https://notion.so)-like editing, but everything syncs with your GitHub repo.
 
 <figure>
   <img src={require("/img/image.png").default} />
@@ -14,13 +14,17 @@ sidebar_position: 1
   </figcaption>
 </figure>
 
-## Import your project
+## Getting started
 
-Sign up at [dhub.dev](https://dhub.dev), connect your GitHub account, and import this project. Pick your branch and you're ready to go. Nothing to install.
+You don't need any special setup:
 
-From there you can edit pages, blog posts, sidebar navigation, and everything else right from Dhub. Changes can be pushed directly to your repo or sent as pull requests for review.
+1. Fork this template
+2. [Sign up](https://dhub.dev) and import the project
+3. Start editing — you now have a Notion-like editor for your documentation
 
-Works best when your repo has a GitHub Action to deploy the docs, so any edit from Dhub goes live right away.
+If you deploy your site to [Vercel](https://vercel.com) or [Netlify](https://netlify.com) with a [GitHub Action](https://github.com/features/actions), every change you make in Dhub goes straight to your live docs site.
+
+From Dhub you can edit pages, blog posts, sidebar navigation, and everything else. Changes are pushed directly to your repo or sent as pull requests for review.
 
 ## Sidebar navigation
 
