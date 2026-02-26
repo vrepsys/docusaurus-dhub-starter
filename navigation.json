@@ -1,0 +1,71 @@
+[
+  {
+    "label": "Docs",
+    "type": "tab",
+    "path": "docs",
+    "children": [
+      {
+        "label": "Dhub",
+        "type": "page",
+        "path": "docs/dhub.md"
+      },
+      {
+        "label": "Intro",
+        "type": "page",
+        "path": "docs/intro.md"
+      },
+      {
+        "label": "Tutorial - Basics",
+        "type": "folder",
+        "children": [
+          {
+            "label": "Create a Document",
+            "type": "page",
+            "path": "docs/tutorial-basics/create-a-document.md"
+          },
+          {
+            "label": "Create a Page",
+            "type": "page",
+            "path": "docs/tutorial-basics/create-a-page.md"
+          },
+          {
+            "label": "Create a Blog Post",
+            "type": "page",
+            "path": "docs/tutorial-basics/create-a-blog-post.md"
+          },
+          {
+            "label": "Markdown Features",
+            "type": "page",
+            "path": "docs/tutorial-basics/markdown-features.mdx"
+          },
+          {
+            "label": "Deploy Your Site",
+            "type": "page",
+            "path": "docs/tutorial-basics/deploy-your-site.md"
+          },
+          {
+            "label": "Congratulations",
+            "type": "page",
+            "path": "docs/tutorial-basics/congratulations.md"
+          }
+        ]
+      },
+      {
+        "label": "Tutorial - Extras",
+        "type": "folder",
+        "children": [
+          {
+            "label": "Manage Docs Versions",
+            "type": "page",
+            "path": "docs/tutorial-extras/manage-docs-versions.md"
+          },
+          {
+            "label": "Translate Your Site",
+            "type": "page",
+            "path": "docs/tutorial-extras/translate-your-site.md"
+          }
+        ]
+      }
+    ]
+  }
+]
