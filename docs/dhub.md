@@ -6,6 +6,8 @@ sidebar_position: 1
 
 [Dhub](https://dhub.dev) is a Git-based CMS for Docusaurus and other documentation frameworks. Think Notion-like editing, but everything syncs with your GitHub repo.
 
+![](/img/image.png)
+
 ## Import your project
 
 Sign up at [dhub.dev](https://dhub.dev), connect your GitHub account, and import this project. Pick your branch and you're ready to go. Nothing to install.
