@@ -8,6 +8,10 @@ sidebar_position: 1
 
 <figure data-align="center">
   <img src={require("/img/image.png").default} />
+
+  <figcaption>
+    Editing this page in Dhub
+  </figcaption>
 </figure>
 
 ## Getting started
