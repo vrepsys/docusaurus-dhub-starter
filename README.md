@@ -2,7 +2,12 @@
 
 A [Docusaurus](https://docusaurus.io/) starter template set up for [Dhub](https://dhub.dev), a CMS for Docusaurus and documentation sites.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvrepsys%2Fdocusaurus-dhub-starter)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vrepsys/docusaurus-dhub-starter)
+
 **Live demo:** https://docusaurus-dhub-starter.vercel.app/
+
+![Dhub editor with live Docusaurus site](https://raw.githubusercontent.com/vrepsys/docusaurus-dhub-starter/refs/heads/main/static/img/dhub.png)
 
 ## Getting started
 
@@ -24,3 +29,7 @@ npm start
 ```bash
 npm run build
 ```
+
+## License
+
+[MIT](LICENSE)
