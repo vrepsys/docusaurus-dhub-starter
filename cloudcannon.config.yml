@@ -1,0 +1,23 @@
+paths:
+  static: static
+  uploads: static/uploads
+timezone: Europe/Vilnius
+markdown:
+  engine: commonmark
+  options: {}
+_snippets_imports:
+  mdx: true
+  docusaurus_mdx: true
+collections_config:
+  pages:
+    path: src/pages
+    icon: wysiwyg
+  source:
+    path: ''
+    icon: package_2
+  blog:
+    path: blog
+    icon: event_available
+  docs:
+    path: docs
+    icon: docs
