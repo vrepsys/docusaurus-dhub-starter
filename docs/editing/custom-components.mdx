@@ -1,0 +1,34 @@
+---
+description: Using custom React components and raw MDX in Dhub with the embedded MDX block.
+---
+
+# Custom components
+
+Docusaurus pages are MDX, so they can embed React components. Dhub supports this with the **embedded MDX block**: type `/mdx` to insert one and write JSX directly.
+
+Here's an embedded MDX block using Docusaurus's built-in styling:
+
+<div className="alert alert--success" style={{marginBottom: '1rem'}}>
+  <strong>This is raw JSX.</strong> In Dhub it appears as an editable MDX block; on
+  your site it renders like any other React component.
+</div>
+
+## Your existing components are safe
+
+If your pages already use custom components — from `src/components` or a component library — Dhub won't get in the way. Any component it doesn't recognize is shown as an MDX block in the editor and written back to the file **exactly as it was**. You can keep editing the rest of the page visually.
+
+## When to reach for MDX
+
+- Reusing a React component from your site (feature grids, buttons, embeds)
+- Docusaurus features without a dedicated block yet
+- Anything else Markdown can't express
+
+For everyday content — callouts, tabs, tables, images — the built-in blocks are faster and render fully inside the editor.
+
+:::tip[Try it]
+Type `/mdx` below and paste this:
+
+```jsx
+<div className="alert alert--warning">Hello from JSX!</div>
+```
+:::

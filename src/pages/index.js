@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/dhub">
+            to="/docs/welcome">
             Get Started →
           </Link>
         </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Home"
+      description="A Docusaurus starter template set up for Dhub, the visual editor for documentation sites">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
