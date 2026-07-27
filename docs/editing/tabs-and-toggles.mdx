@@ -1,0 +1,50 @@
+---
+description: Tabs and collapsible toggles in Dhub — great for per-platform instructions and optional detail.
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Tabs & toggles
+
+## Tabs
+
+Tabs are ideal when the same task differs by platform, language, or package manager. Type `/tabs` to insert a tab group, then click a tab's label to rename it.
+
+<Tabs>
+  <TabItem value="npm" label="npm" default>
+    ```bash
+    npm install
+    npm start
+    ```
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+    ```bash
+    yarn
+    yarn start
+    ```
+  </TabItem>
+  <TabItem value="pnpm" label="pnpm">
+    ```bash
+    pnpm install
+    pnpm start
+    ```
+  </TabItem>
+</Tabs>
+
+In your repo, tabs are stored as Docusaurus `<Tabs>` and `<TabItem>` components — nothing Dhub-specific.
+
+## Toggles
+
+A toggle hides detail behind a click. Use it for long asides, troubleshooting steps, or anything most readers don't need. Type `/toggle` to insert one.
+
+<details>
+  <summary>What happens in the repo?</summary>
+
+  Toggles are saved as standard HTML `<details>` and `<summary>` elements, which Docusaurus styles and animates out of the box.
+
+</details>
+
+:::tip[Try it]
+Rename a tab above, add another item to the group, or insert a fresh toggle with `/toggle`.
+:::

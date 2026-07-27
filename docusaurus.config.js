@@ -47,8 +47,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/vrepsys/docusaurus-dhub-starter/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +54,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/vrepsys/docusaurus-dhub-starter/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -74,7 +70,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/dhub.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -89,7 +85,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docs',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -106,25 +102,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Welcome',
+                to: '/docs/welcome',
+              },
+              {
+                label: 'Make it yours',
+                to: '/docs/make-it-yours',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Dhub',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Website',
+                href: 'https://dhub.dev',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Blog',
+                href: 'https://dhub.dev/blog',
               },
             ],
           },

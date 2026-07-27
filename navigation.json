@@ -5,66 +5,79 @@
     "path": "docs",
     "children": [
       {
-        "label": "Dhub",
+        "label": "Welcome",
         "type": "page",
-        "path": "docs/dhub.md"
+        "path": "docs/welcome.md"
       },
       {
-        "label": "Intro",
-        "type": "page",
-        "path": "docs/intro.md"
-      },
-      {
-        "label": "Tutorial - Basics",
-        "type": "folder",
+        "label": "Editing",
+        "type": "group",
         "children": [
           {
-            "label": "Create a Document",
+            "label": "Edit a page",
             "type": "page",
-            "path": "docs/tutorial-basics/create-a-document.md"
+            "path": "docs/editing/edit-a-page.md"
           },
           {
-            "label": "Create a Page",
+            "label": "Callouts",
             "type": "page",
-            "path": "docs/tutorial-basics/create-a-page.md"
+            "path": "docs/editing/callouts.md"
           },
           {
-            "label": "Create a Blog Post",
+            "label": "Tabs & toggles",
             "type": "page",
-            "path": "docs/tutorial-basics/create-a-blog-post.md"
+            "path": "docs/editing/tabs-and-toggles.mdx"
           },
           {
-            "label": "Markdown Features",
+            "label": "Code blocks & tables",
             "type": "page",
-            "path": "docs/tutorial-basics/markdown-features.mdx"
+            "path": "docs/editing/code-blocks-and-tables.md"
           },
           {
-            "label": "Deploy Your Site",
+            "label": "Images",
             "type": "page",
-            "path": "docs/tutorial-basics/deploy-your-site.md"
+            "path": "docs/editing/images.md"
           },
           {
-            "label": "Congratulations",
+            "label": "Custom components",
             "type": "page",
-            "path": "docs/tutorial-basics/congratulations.md"
+            "path": "docs/editing/custom-components.mdx"
           }
         ]
       },
       {
-        "label": "Tutorial - Extras",
-        "type": "folder",
+        "label": "Publishing",
+        "type": "group",
         "children": [
           {
-            "label": "Manage Docs Versions",
+            "label": "Navigation",
             "type": "page",
-            "path": "docs/tutorial-extras/manage-docs-versions.md"
+            "path": "docs/publishing/navigation.md"
           },
           {
-            "label": "Translate Your Site",
+            "label": "Push & pull requests",
             "type": "page",
-            "path": "docs/tutorial-extras/translate-your-site.md"
+            "path": "docs/publishing/push-and-pull-requests.md"
+          },
+          {
+            "label": "Deploy your site",
+            "type": "page",
+            "path": "docs/publishing/deploy.md"
           }
         ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "label": "Make it yours",
+        "type": "page",
+        "path": "docs/make-it-yours.md"
+      },
+      {
+        "label": "dhub.dev",
+        "type": "link",
+        "url": "https://dhub.dev"
       }
     ]
   }

@@ -17,6 +17,14 @@ A [Docusaurus](https://docusaurus.io/) starter template set up for [Dhub](https:
 
 The sidebar is driven by `navigation.json` in the project root. Dhub reads and writes this file, so you can rearrange navigation visually without editing config files.
 
+## What's inside
+
+The sample docs double as a hands-on tour of Dhub:
+
+- **Editing** — the editor basics, plus live examples of callouts, tabs & toggles, code blocks, tables, images, and custom MDX components
+- **Publishing** — how navigation works, pushing to main vs. opening pull requests, and deploying to Vercel/Netlify/GitHub Pages
+- **Make it yours** — a checklist for turning the template into your own site
+
 ## Local development
 
 ```bash
